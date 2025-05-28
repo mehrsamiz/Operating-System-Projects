@@ -1,32 +1,51 @@
-# Traffic Intersection Simulator – OS Assignment
+# Operating Systems Course
 
-This Python project simulates a four-way intersection using **multithreading**, designed for the **Operating Systems course**. It handles vehicle movements from all directions using **weighted round-robin scheduling** and ensures safe concurrent execution without collisions or deadlocks.
+This repository contains assignments and projects from the *Operating Systems* course completed at [SBU].
 
----
+## Contents
 
-## 🚦 Project Structure
+###  OS-Exercise: Traffic Intersection Simulator
+A multithreaded Python simulation of a four-way intersection that handles traffic scheduling, avoiding collisions and deadlocks using weighted round-robin scheduling.
 
-- `traffic_system.py` – Core traffic simulation logic.
-- `example_scenario.py` – A test scenario with 10 vehicles.
-- `README.md` – Documentation for the project.
+- Language: Python
+- Concurrency: Threads, Locks
+- Features: Safe path management, fairness, deadlock avoidance
+- [View Project →](./OS-traffic-system)
 
----
 
-## 🧠 Key Concepts
+## OS Final Project - Process Scheduling System
 
-- Python threads and mutex locks (`threading`)
-- Barrier synchronization
-- Weighted round-robin scheduling
-- Deadlock and collision avoidance
-- Fair access across multiple directions
 
----
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 
-## ▶️ How to Run
+A multi-processor scheduling system that dynamically generates processes and schedules them based on deadlines and priority scores, implementing three different scheduling algorithms.
 
-1. Make sure you have Python 3 installed.
-2. Clone this repo or download the files.
-3. Run the scenario:
+## Features
+- Random process generation with:
+  - Arrival time
+  - Execution time (1-10 units)
+  - Priority score (0-100)
+  - Starting deadline (0-6 units after arrival)
+  - Ending deadline (0-15 units after starting deadline)
+- Input queue and ready queue management with size limitation (20 processes)
+- Three CPU threads with different scheduling algorithms:
+  1. Combined deadline and priority scheduling
+  2. Priority-focused scheduling
+  3. Execution-time-aware scheduling
+- Statistics collection and visualization
+- Thread-safe operations using mutex locks
 
+## Requirements
+- Python 3.8+
+- Required packages:
+  - `threading` (built-in)
+  - `time` (built-in)
+  - `random` (built-in)
+  - `queue` (built-in)
+  - `matplotlib` (for visualization)
+
+## Installation
 ```bash
-python example_scenario.py
+git clone https://github.com/mehrsamiz/Operating-System-Projects.git
+cd Operating-System-Projects/OS-final-project
+pip install matplotlib  # Only required if you want visualization
