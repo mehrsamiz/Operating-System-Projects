@@ -19,7 +19,7 @@ A multithreaded Python simulation of a four-way intersection that handles traffi
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 
 A multi-processor scheduling system that dynamically generates processes and schedules them based on deadlines and priority scores, implementing three different scheduling algorithms.
-- [View Project](./OS-Final-Project)
+- [View Project](./OS-final-project)
 
 ## Features
 - Random process generation with:
