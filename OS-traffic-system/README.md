@@ -4,7 +4,7 @@ This Python project simulates a four-way intersection using **multithreading**, 
 
 ---
 
-## 🚦 Project Structure
+## Project Structure
 
 - `traffic_system.py` – Core traffic simulation logic.
 - `example_scenario.py` – A test scenario with 10 vehicles.
@@ -12,7 +12,7 @@ This Python project simulates a four-way intersection using **multithreading**, 
 
 ---
 
-## 🧠 Key Concepts
+## Key Concepts
 
 - Python threads and mutex locks (`threading`)
 - Barrier synchronization
@@ -22,7 +22,7 @@ This Python project simulates a four-way intersection using **multithreading**, 
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Make sure you have Python 3 installed.
 2. Clone this repo or download the files.
