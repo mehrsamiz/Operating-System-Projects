@@ -10,7 +10,7 @@ A multithreaded Python simulation of a four-way intersection that handles traffi
 - Language: Python
 - Concurrency: Threads, Locks
 - Features: Safe path management, fairness, deadlock avoidance
-- [View Project →](./OS-traffic-system)
+- [View Project](./OS-traffic-system)
 
 
 ## OS Final Project - Process Scheduling System
@@ -19,6 +19,7 @@ A multithreaded Python simulation of a four-way intersection that handles traffi
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 
 A multi-processor scheduling system that dynamically generates processes and schedules them based on deadlines and priority scores, implementing three different scheduling algorithms.
+- [View Project](./OS-Final-Project)
 
 ## Features
 - Random process generation with:
